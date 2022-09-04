@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     botonLimpiar.addEventListener("click", function(){
         rangoMax.value = "";
         rangoMin.value = "";
+        inputBusqueda.value = "";
 
         costoMax = undefined;
         costoMin = undefined;
